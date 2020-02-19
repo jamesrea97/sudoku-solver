@@ -1,0 +1,54 @@
+I will summarize my findings in two parts. First I will answer the
+question 'Is the suoku solvable?'. Then I will consider which of the 2
+solvable sudokus is the most 'difficult'.
+
+PART 1:
+Simply by running the 'solve_board' algorithm on all three
+(mystery1/2/3) sudokus, we can see that mystery2 cannot be solved by
+our algorithm. 
+The question is now whether this implies that we can
+guarantee that no procedure could ever solve this sudoku.
+I believe that the very nature of the solve_board algorithm will
+guarantee this as the algorithm must go through each possible 'legal'
+move and so shows that this is indeed the impossible sudoku.
+
+PART 2:
+From Part 1, we have that mystery1 and mystery3 must be the 'difficult
+and 'very difficult' sudokus.
+
+Here, the term 'difficult' is ambiguous; there are many different ways
+to assess difficulty of a given board. 
+
+For this reason, I have investigated what I deemed is a more human way
+of assessing difficulty as well as a more algorithmic analysis. I have
+summarised these below:
+
+HUMAN:
+I created a function that took each sudoku (mystery1/2/3) and summed
+for each blank square how many numbers from 1 to 9 are
+permissible. Findings are below:
+
+Mystery1: 227
+Mystery3: 222
+
+Here, it would appear that the two are very imilar in difficulty. This
+would imply this methodology may not be as suitable as the algorithmic
+methodology.
+
+ALGORITHMIC:
+I created a function that measured the time of completion of the
+solve_board function. My findings are below:
+
+Mystery1: 141 milliseconds
+Mystery3: 4 milliseconds
+
+From here, it would appear that mysery1 is far more complex than
+mystery3.
+
+CONCLUSIONS:
+
+2 is impossible. 3 is not as ddfficult as 1. Although there is
+ambiguity in defining 'difficulty' it would seem that mystery1 is more
+difficult than mystery3.
+
+
