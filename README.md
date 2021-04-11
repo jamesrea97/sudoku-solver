@@ -8,7 +8,11 @@ This C++ Sudoku Solver:
 - saves the sudoku to desired location.
 
 ## Building
-Running `make` inside the `./src` folder will create the
+Running `make` inside the root folder to build the program. 
+
+## Running 
+In order to run this program from the Terminal, run `sudoku file_path` once you have build the executable.
+
 ## Testing
 A `./test/test.cpp` file tests the functionalities of the program. This were not written by myself and were used as guidance to the excercise.
 
