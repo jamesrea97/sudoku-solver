@@ -9,7 +9,7 @@ This C++ Sudoku Solver:
 
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/59763234/114299478-b61f5280-9abb-11eb-9c98-c93329b78732.gif">
-  <p>"Solving sudoku by backtracking algorithm"<p>
+  <p align="center">Solving sudoku by backtracking algorithm<p>
 </p>
 
 ## Building
