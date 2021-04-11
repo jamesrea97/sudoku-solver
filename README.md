@@ -6,8 +6,10 @@ This C++ Sudoku Solver:
 - loads a sudoku problem from `/data` folder into the program.
 - solves sudoku recursively using backtracking.
 - saves the sudoku to desired location.
-![Alt Text](https://user-images.githubusercontent.com/59763234/114299478-b61f5280-9abb-11eb-9c98-c93329b78732.gif)
 
+<p align="center">
+  <img width="200" src="https://user-images.githubusercontent.com/59763234/114299478-b61f5280-9abb-11eb-9c98-c93329b78732.gif" alt="Soling sudoku by backtracking algorithm">
+</p>
 
 ## Building
 Running `make` inside the root folder to build the program. 
